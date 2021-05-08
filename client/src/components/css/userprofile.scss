@@ -1,0 +1,455 @@
+
+
+.signup_popup_userprofile{
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  border-top-right-radius:5px ;
+  .close_image_popup{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 16px;
+  }
+  .divxx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .signup_text{
+      position: absolute;
+      // top: 25px;
+      top: 20px;
+      right: 0;
+      left: 0;
+      font-family: Avenir-Heavy;
+      font-size: 12px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin: 0 50px;
+    }
+    .signup_btn{
+      position: absolute;
+      bottom: 0;
+      font-family: Avenir-Heavy;
+      font-size: 14px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #881098;
+      padding: 6px 22px ;
+      border-radius: 17px;
+      background-color: #ffffff;
+    }
+  }
+  
+}
+
+.userprofileContainer{
+  padding: 0;
+  margin: 0 ;
+//   position: relative;  
+  // height: 100vh;
+  .profileConyainerInside{
+     margin:20px 5% ;
+
+    .share_and_title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+      .title_img{
+        img{
+          width: 60px;
+          height: auto;
+        }
+      }
+      .share_btn{
+        // display: flex;
+        // justify-content: flex-end;
+
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+            width: 86px;
+            height: 34px;
+            border-radius: 17px;
+            border-style: solid;
+            border-width: 0.5px;
+            text-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+            font-family: Avenir;
+            font-size: 12px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #881098;
+            img{
+                width: 15px;
+                margin-right:5px ;
+            }
+        }
+      }
+
+    }
+    
+
+    .profileImageParent{
+      // margin: 15px 0;
+      position: relative;
+      width: 100%;
+      height: 65vh;
+      border-radius: 11px;
+      outline: none;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      border: none;
+      // z-index: 9 !important;
+    
+      .profileImage{
+    
+        img{
+          width: 100%;
+          height: 65vh;
+          border-radius: 11px;
+          object-fit: cover;     
+        }
+            .copy_url_msg{
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                top: 14%;
+                left: 50%;
+                width: 75px;
+                height: 25px;
+                transform: translate(-50%,-50%);
+                background-color: #ffffff;
+                border-radius: 4px;
+                p{
+                    width: max-content;
+                    font-family:  Avenir-Heavy;
+                    font-size: 12px;
+                    font-weight: 900;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #72d3a4;
+                    word-spacing: 7px;
+                }
+            }
+            
+        .redirect_profile_main_btn{
+          img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 55px;
+            height: auto;
+            object-fit: contain;
+          }
+        }   
+      }
+      .img-gradient:after {
+        content:'';
+        position: absolute;
+        left:0;
+        top:0;
+        width:100%; 
+        height:100%;
+        display:inline-block;
+        border-radius: 11px;
+        outline: none;
+        //   background: -moz-linear-gradient(top, rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); /* FF3.6+ */
+        //   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5))); /* Chrome,Safari4+ */
+        //   background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+        //   background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Opera 11.10+ */
+        //   background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,rgba(43, 43, 43, 0.87) 100%); /* W3C */
+        //   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+      }
+      .img-gradient img{
+        display:block;
+      }
+      .profileDatas{
+        margin-left: 2%;
+        margin-bottom:3% ;
+        position: absolute;
+        bottom: 0;
+        word-break: break-all;
+        .profileName{
+          // position:absolute;   
+          // bottom: 10%;
+          text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+          font-family: Avenir-Heavy;
+          font-size: 29px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #ffffff;
+        }
+        .profileJob{
+          // position: absolute;
+          // bottom: 12%;
+          margin-bottom: 20px;
+          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+          font-family: Avenir-Book;
+          font-size: 14px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #ffffff;      
+        }
+        .profilePhoneEmail{  
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px ;    
+          width: max-content;
+          height: auto;    
+          // -webkit-backdrop-filter: blur(10px);
+          // backdrop-filter: blur(80px);
+          background-color:rgba(0, 0, 0, 0.4);
+          // align-items: flex-start;
+          border-radius: 20px;
+          a{
+            display: flex;
+            z-index: 1;
+            cursor: pointer;
+            // margin:0 5px;  
+            img{
+              // margin:0px 5px;
+              padding:0 8px;
+              width: 21px;
+              height: auto;
+              // z-index: 1;
+              object-fit: contain;
+              // margin: 10px 10px 7px 10px;
+            }
+          }
+        }
+        .profilephone{
+          display: none;
+        }
+        .profileemail{
+          display: none;
+        } 
+      }
+
+      .shareUrlProfiles{
+        display: flex;
+        word-wrap: normal;
+        justify-content: space-around;
+        align-items: center;
+        .shareUrlProfile{
+          position: absolute;
+          top: 5%;
+          div{
+              display: flex;
+              background-color:rgba(0, 0, 0, 0.4); 
+              text-align: center;
+              justify-content: center;
+             border-radius: 18px;
+              padding:7px 5px;
+              align-items: center;
+              }
+              p{
+                margin: 0 10px ;
+                display: flex;
+                text-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+                font-family: Avenir-Light;
+                font-size: 12px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+                // z-index: 101;
+              }
+              img{
+                // padding: 2px;
+                margin-left:8px;
+                width: 12px;
+                height:auto;
+                object-fit: contain;
+              }
+        }
+      }
+    }
+    .save_contect{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        button{
+          outline: none;
+          border: none;
+          width: 214px;
+          height: 46px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
+          background: linear-gradient(279deg,#af098c 10%, #6930b7 100%);
+
+          border-radius: 23px;
+          font-family: Avenir-Heavy;
+          font-size: 14px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #ffffff;
+               
+        }
+           
+    }
+  }    
+}
+
+/* Popup */
+.userprofilepopup{
+
+  .popup_qrcode{
+    
+    // background: linear-gradient(137deg, #6e2bb2 -25%,#8d0b93 50%,#B8098b 100% ) no-repeat center center fixed;  
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    
+    z-index:101;
+    
+    
+    
+  }
+  
+} 
+
+
+
+.popup_Download_Contact{
+  margin: 0;
+  padding: 0;
+  background:rgba(0, 0, 0, 0.5);
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index:111;
+  width:100%; /*Change your width here*/
+  height:100vh; /*Change your height here*/
+  .popup_inner_coach_mark{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+  .contect_save{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 258px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    .closepopupcontact{
+      position: absolute;
+      top: -12px;
+      right: -10px;
+    }
+    .download_contact_card{
+      font-family: Avenir-Heavy;
+      font-size: 18px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #881098;
+      margin: 15px 0px;
+    }
+    .the_download{
+      margin: 5px 10px;
+      // padding: 0 10px;
+      font-family: Avenir-Book;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #1b1c1a;
+    }
+    button{
+      border: none;
+      outline: none;
+      margin: 15px 0px;
+      width: 93px;
+      height: 30px;
+      font-family: Avenir-Heavy;
+      font-size: 14px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+      border-radius: 17px;
+      background: linear-gradient(279deg,#af098c 10%, #6930b7 100%);
+    }
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+
+    .userprofileContainer{
+        .profileConyainerInside{
+          margin: 20px 30%;
+        
+        }
+    }
+ 
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1824px) and (orientation : landscape) {
+ 
+    .userprofileContainer{
+        .profileConyainerInside{
+          margin: 20px 35%;
+        
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "klosefrontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.1",
+    "browser-image-compression": "^1.0.12",
+    "clipboard-copy": "^3.1.0",
+    "cropperjs": "^1.5.9",
+    "formik": "^2.1.5",
+    "js-cookie": "^2.2.1",
+    "node-sass": "^4.14.1",
+    "otp-input-react": "^0.2.4",
+    "react": "^16.13.1",
+    "react-avatar-editor": "^11.1.0",
+    "react-dom": "^16.13.1",
+    "react-easy-crop": "^3.3.1",
+    "react-otp-input": "^2.0.2",
+    "react-qr-reader": "^2.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-spinners": "^0.10.4",
+    "react-tinder-card": "^1.2.0",
+    "uninstall": "0.0.0"
+  },
+  "scripts": {
+    "start": "PORT=4000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

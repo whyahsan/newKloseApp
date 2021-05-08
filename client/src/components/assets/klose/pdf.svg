@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="32" viewBox="0 0 29 32">
+    <defs>
+        <filter id="6xis25s1ra" width="214.3%" height="200%" x="-57.1%" y="-50%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g filter="url(#6xis25s1ra)" transform="translate(-40 -1586) translate(44 1588)">
+                <path fill="#E2E5E7" d="M4.5 0C3.675 0 3 .675 3 1.5v21c0 .825.675 1.5 1.5 1.5h15c.825 0 1.5-.675 1.5-1.5V6l-6-6H4.5z"/>
+                <path fill="#B0B7BD" d="M16.5 6H21l-6-6v4.5c0 .825.675 1.5 1.5 1.5z"/>
+                <path fill="#CAD1D8" d="M21 11L16 6 21 6z"/>
+                <path fill="#F15642" d="M18 19.25c0 .413-.337.75-.75.75H.75c-.412 0-.75-.337-.75-.75v-7.5c0-.412.338-.75.75-.75h16.5c.413 0 .75.338.75.75v7.5z"/>
+                <g fill="#FFF">
+                    <path d="M.036.407c0-.188.16-.393.417-.393H1.87C2.67.014 3.39.51 3.39 1.458c0 .899-.719 1.4-1.518 1.4H.846v.75c0 .25-.172.392-.393.392-.203 0-.417-.142-.417-.392V.407zm.81.323v1.417h1.025c.412 0 .738-.337.738-.69 0-.397-.326-.727-.738-.727H.846zM4.591 4c-.202 0-.423-.102-.423-.352V.418c0-.204.22-.353.423-.353h1.407C8.804.065 8.743 4 6.053 4H4.591zM4.98.76v2.547h1.019c1.658 0 1.732-2.548 0-2.548h-1.02zM9.738.805v.904h1.566c.221 0 .442.205.442.403 0 .188-.221.341-.442.341H9.738v1.194c0 .2-.153.352-.368.352-.27 0-.435-.153-.435-.352V.417c0-.204.165-.352.435-.352h2.156c.27 0 .43.148.43.352 0 .182-.16.387-.43.387H9.738v.001z" transform="translate(3 14)"/>
+                </g>
+                <path fill="#CAD1D8" d="M17.25 20H3v1h14.25c.413 0 .75-.45.75-1v-1c0 .55-.337 1-.75 1z"/>
+            </g>
+        </g>
+    </g>
+</svg>

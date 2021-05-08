@@ -1,0 +1,155 @@
+@import '../styles/main.scss';
+
+
+.signup_details_container{
+    margin: 0;
+    padding: 0;
+    
+    .userContainer{
+        position: relative;
+        // height: 90vh;
+        margin: 0 10%;
+        padding-top: 40px;
+        
+        button{
+            position: absolute;
+                margin-top: 20px;
+                right: -3%;
+                cursor: pointer;
+                background: none;
+                border: none;
+                outline: none;
+                width: 80px;
+                height: 80px;
+                z-index: 101;
+                img{
+                    object-fit: cover;
+                    width: 66px;
+                    height: 66px;
+                }
+        }
+
+        .userChildContainer{
+            margin:  50px 0;
+            // padding: 5% 0;
+            div{
+                margin: 10px 0 ;
+            }
+            .userName{
+                color: #881098;
+                // flex-wrap: wrap;
+                // display: flex;
+                // flex-direction: row;
+            }
+            label{
+                //  padding-top:15% ;
+                //  margin: 200px 0;
+                font-family: Avenir-Light;
+                font-size: 16px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #1b1c1a;
+                // width: 100%;   
+             }
+
+            span{
+                font-family: Avenir-Heavy;
+            }
+
+            input{
+                // margin: 2% 0;
+                font-family: Avenir-Book;
+                font-size: 18px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #1b1c1a;
+                width: 100%;
+                outline: none;
+                border: none;
+                border-bottom:solid 2px #fce6ff;
+                background: none;
+            }
+            .input_container{
+                position: relative;
+                // width: 90%;
+                img{
+                    position: absolute;
+                    
+                }
+                input{
+                    position: relative;
+
+                   padding-left: 30px;
+                   width: 92%;
+                }
+            }
+           
+        }
+
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1824px) {
+/* Styles */
+    .signup_details_container{
+        .userContainer{
+            margin: 0 30%;
+        }    
+    }
+}
+
+// /* iPads (landscape) ----------- */
+// @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+// /* Styles */
+//     .signup_details_container{
+//         .userContainer{
+//             margin: 0 30%;
+//         }    
+//     }
+// }
+
+// /* iPads (portrait) ----------- */
+// @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+// /* Styles */
+//     .signup_details_container{
+//         .userContainer{
+//             margin: 0 30%;
+//         }    
+//     }
+// }
+// /**********
+// iPad 3
+// **********/
+// @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+// /* Styles */
+//     .signup_details_container{
+//         .userContainer{
+//             margin: 0 30%;
+//         }    
+//     }
+// }
+
+// @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+// /* Styles */
+//     .signup_details_container{
+//         .userContainer{
+//             margin: 0 30%;
+//         }    
+//     }
+// }
+// /* Desktops and laptops ----------- */
+// @media only screen  and (min-width : 1224px) {
+// /* Styles */
+//     .signup_details_container{
+//         .userContainer{
+//             margin: 0 30%;
+//         }    
+//     }
+// }

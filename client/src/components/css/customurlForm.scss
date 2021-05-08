@@ -1,0 +1,108 @@
+.cutomurlContainor{
+margin: 0;
+padding: 0;
+// width: 100%;
+// height: 100%;
+
+    // margin: 15% 5%;
+    padding: 5% 0;
+    background-color: #ffffff;
+    // border-radius: 6px;
+    .customurl_label_input{
+        padding: 2% 5%;
+        
+        // margin: 15px;
+        display: flex;
+        flex-direction: column;
+        label{
+       
+            font-family: Avenir-Light;
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+               background: none;   
+             transition: all 0.5s ease;
+        }
+        input{
+            // padding-left: 5px;
+            font-family: Avenir-Medium;
+            width: auto;
+            transition: all 0.5s ease;
+            font-size: 16px;
+            padding-left: 5px;
+            width: auto;
+            height: 38px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            border: solid 1px #fce6ff;
+            background-color: #f7f7f7;
+        } 
+        input::placeholder {
+            color:black;
+            opacity: 0.5;
+            font-size: 14px;
+            font-family: Avenir-Light;
+            
+        }
+        
+    }
+    
+    h1{
+        margin: 5%;
+        font-family: Avenir-Heavy;
+        font-size: 18px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .button_title_preview{
+        background-color: #000000;
+        border-radius: 5px;
+        margin: 0 5%;
+        p{
+            word-break: break-all;
+            font-family: Avenir-Heavy;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: -0.46px;
+            color: #ffffff;
+            margin: 10px;
+            text-align: center;
+            padding:  15px 0px;
+        }
+    }
+    .addmorebutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        button{
+            background-color: #881098;
+            border: solid 1px #fce6ff;
+            width: 139px;
+            height: 38px;
+            border-radius: 5px;
+            outline: none;
+            font-family: Avenir-Heavy;
+            font-size: 14px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+        }
+    }
+}

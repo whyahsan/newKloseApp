@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+    <defs>
+        <linearGradient id="y09ujkf49a" x1="134.326%" x2="-30.678%" y1="138.085%" y2="-32.4%">
+            <stop offset="0%" stop-color="#CC0886"/>
+            <stop offset="51.552%" stop-color="#8D0B93"/>
+            <stop offset="100%" stop-color="#4F4AD2"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <circle cx="10.5" cy="10.5" r="10.5" fill="#FFF" stroke="#881098"/>
+        <path fill="url(#y09ujkf49a)" fill-rule="nonzero" d="M9.017 0L1.432 7.585 0 12l4.415-1.432L12 2.983 9.017 0zm1.989 2.983l-.995.994L8.023 1.99l.994-.995 1.989 1.99zM1.898 8.428l1.674 1.674-.751.244-1.167-1.167.244-.75zm.34-.654l5.287-5.288.746.746L2.983 8.52l-.746-.746zM3.48 9.017l5.288-5.288.746.746-5.288 5.288-.746-.746zm-2.07.913l.66.66-.976.316.317-.976z" transform="translate(5 5)"/>
+    </g>
+</svg>

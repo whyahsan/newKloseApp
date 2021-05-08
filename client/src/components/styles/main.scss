@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: local('Avenir-Medium'), url(../fonts/Avenir-Medium.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Avenir';
+    src: local('Avenir'),url(../fonts/AvenirLTStd-Medium.otf) format('truetype');
+}
+@font-face{
+    font-family: 'Avenir-Light';
+    src: local('Avenir-Light'),url(../fonts/Avenir-Light.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Avenir-Heavy';
+    src: local('Avenir-Heavy'),url(../fonts/Avenir_Heavy.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'Avenir-Book';
+    src: local('Avenir-Book'),url(../fonts/Avenir-Book.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'Nunito-Bold';
+    src: local('Nunito-Bold'),url(../fonts/Nunito-Bold.ttf) format('truetype');
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+body{
+ margin: 0;
+ padding: 0;
+ 
+}
+
+.sendOtp{
+  text-align: center;
+  align-items: center;
+  font-family: Avenir-Heavy;
+  margin: 40px 20px;
+
+  .title{
+    width:87px ;
+    height:25px ;
+    // margin-bottom: 8%;
+  }
+  .groupImage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position:relative;
+    // width:300px ;
+    // height:320px; 
+  }
+  .group{
+    margin: 25px 0;
+    // position: absolute;
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+  }
+  .you{
+    color: #881098;
+  }
+  .p1{
+    margin: 0;
+    font-family: Avenir-Heavy;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 24px;
+    color: #000000;
+  }
+  .p2{
+    margin: 0;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.03px;
+    color: #000000;
+    padding:5px 30px 10px 30px;
+  }
+  .takeMeHome{
+    width: 250px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+    background: linear-gradient(279deg,#af098c 10%, #6930b7 100%);
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.03px;
+    outline: none;
+    color: #ffffff;
+  }
+}
+
+.triangle{
+  width: 10px ;
+  height: 8px;
+  /* align-items: center; */
+}
+.errormsg{
+  font-family: Avenir-Light;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  opacity: 0.8;
+  color:rgba(224, 13, 13, 0.884);
+}
+.loader_klose{
+  position: absolute;
+   top:50% ;
+  left: 50%;
+  width: 75px;
+  height: 25px;
+  transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 360px) {
+  .sendOtp{
+    .group{
+      width: 250px;
+    }
+  }
+}

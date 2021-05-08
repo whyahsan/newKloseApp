@@ -1,0 +1,270 @@
+
+@import '../styles/main.scss';
+
+.socialdata{
+    margin:30px 10% 20px 10%;
+
+    h1{
+        width: 100%;
+        // margin: 0;
+        height: 24px;
+        font-family: Avenir-Heavy;
+        font-size: 24px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1b1c1a;
+    }
+    p{
+        margin: 0;
+        font-family: Avenir-Light;
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1b1c1a;
+
+    }
+    button{
+        // margin-top: 20px 0px;
+        float: right;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background: none;
+    }
+    .image_container{
+        // margin: ;
+
+        .image_container_child{
+            margin: 40px 0;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        .image_previews{
+            position: relative;
+            width: 115px;
+            height: 115px;
+            img{
+                // position: absolute;
+                width: 115px;
+                height: 115px;    
+                object-fit: cover;
+                border-radius: 8px;
+            }   
+            .imgEdit{
+                position: absolute;
+                right: 0;
+                width: 21px;
+                height: auto;
+                cursor: pointer;
+            }
+        }
+    }
+    .socialinputs{
+        display: flex;
+        // align-items: center;
+        // width: 100%;
+        margin:  15px 0;
+        
+        // text-align: center;
+        // align-items: center;
+        // justify-content: space-evenly;
+        // position: relative;
+       
+            label{
+                width: 60%;
+                // display: flex;
+                // align-items: center;
+                margin-right: 5px;
+                // margin: 0 ;
+                // padding: 0 5%;
+                font-size: 18px;
+                font-family: Avenir-Light;
+                // font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.94;
+                letter-spacing: normal;
+                color: #1b1c1a;
+                // flex-wrap: wrap;
+                // position: absolute;
+                // width:20%;
+            //    flex-direction: row;
+                
+            }
+            input{
+
+                width: 100%;
+                height: 32px;
+                padding-left: 10px;
+                border-radius: 5px;
+                border: solid 1px #fce6ff;
+                outline: none;
+                font-family: Avenir-Heavy;
+                font-size: 18px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.94;
+               
+                letter-spacing: normal;
+                color: #000000;
+                // opacity: .8;
+                
+            }
+            ::placeholder {
+                    font-family: Avenir-Light;
+                    opacity: .5; /* Firefox */
+                }
+
+                :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                     
+                }
+
+                ::-ms-input-placeholder { /* Microsoft Edge */
+                    
+                }
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+ .socialdata{
+             margin:30px 30% ;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+.socialdata{
+             margin:30px 30% ;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+.socialdata{
+             margin:30px 30% ;
+    }
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+.socialdata{
+             margin:30px 30% ;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+.socialdata{
+             margin:30px 30% ;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+ .socialdata{
+             margin:30px 35% ;
+    }
+}
+// .wouldyou{
+//     font-family: Avenir-Light;
+//     font-size: 16px;
+//     font-weight: 300;
+//     font-stretch: normal;
+//     font-style: normal;
+//     line-height: normal;
+//     letter-spacing: normal;
+//     color: #1b1c1a;
+// }
+
+// .socialimage{
+//     // margin-top:76px ;
+//     margin-bottom: 34px;
+//     img{
+//         width: 115px;
+//         height: 115px;
+//         object-fit: cover;
+//         border-radius: 8px;
+//         position: relative;
+//     }
+// }
+
+
+
+// .socialinputs{
+//     display: flex;
+// //   flex-wrap: nowrap;
+//     // table-layout: fixed;
+//     // width: 100%;
+//     // display: flex;
+//     // justify-content: space-between;
+//     align-items: center;
+//     // text-align: center;
+//     margin: 5px 0;
+//     // position: absolute;
+    
+//     label{
+        
+        
+//         font-family:Avenir-Light ;
+//        font-family: Avenir;
+//         font-size: 15px;
+//         font-weight: 900;
+//         font-stretch: normal;
+//         font-style: normal;
+//         line-height: 1.94;
+//         letter-spacing: normal;
+//         color: #1b1c1a;
+//     }
+//     input{
+//         flex: 1;
+//         border-radius: 5px;
+//         font-size: 12px;
+//         //  font-size: 15px;
+//         font-weight: 900;
+//         font-stretch: normal;
+//         font-style: normal;
+//         line-height: 1.94;
+//         letter-spacing: normal;
+//         border: solid 1px #fce6ff;
+//         outline: none;
+//         padding: 10px; 
+//         width: 100%;
+//     }
+// }
+// .filetype{
+   
+//     
+//     label img{
+//         width: 22px;
+//         height: 22px;
+//         z-index: 1;
+//         position: absolute;
+        
+//     }
+// }
+// .image_container{
+//      position:relative;
+//     padding:0;
+//     margin:0;
+// }
+// .imgEdit{
+//     position:absolute;
+//     bottom:-70px;
+//     left: 100px;
+// }
+

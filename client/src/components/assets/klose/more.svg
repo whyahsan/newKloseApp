@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4" height="20" viewBox="0 0 4 20">
+    <defs>
+        <linearGradient id="4hhbikxwba" x1="134.326%" x2="-30.678%" y1="138.085%" y2="-32.4%">
+            <stop offset="0%" stop-color="#CC0886"/>
+            <stop offset="51.552%" stop-color="#8D0B93"/>
+            <stop offset="100%" stop-color="#4F4AD2"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="url(#4hhbikxwba)" fill-rule="nonzero" transform="translate(-382 -27)">
+            <g transform="translate(382 27)">
+                <circle cx="2" cy="2" r="2"/>
+                <circle cx="2" cy="10" r="2"/>
+                <circle cx="2" cy="18" r="2"/>
+            </g>
+        </g>
+    </g>
+</svg>
